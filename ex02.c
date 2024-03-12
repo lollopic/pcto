@@ -3,7 +3,10 @@
 int main()
 {
 int a;
+int b;
+int somma;
 printf("inserisci un numero\n");
-scanf("%d", &a);
-printf("numeri inseriti %d\n", a);
+scanf("%d %d", &a, &b);
+somma = a + b;
+printf("numeri inseriti %d\n", somma);
 }

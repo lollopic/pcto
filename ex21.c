@@ -3,7 +3,7 @@
 int main()
 {
 int pezzi;
-while(pezzi >= 0)
+while(pezzi > 0)
 {
     printf("inserisci il numero di pezzi\n");
     scanf("%d", &pezzi);
@@ -15,11 +15,11 @@ while(pezzi >= 0)
         }
         else if(pezzi > 30)
         {
-            printf("%f", (float)pezzi * 5 * 0.90);
+            printf("%f\n", (float)pezzi * 5 * 0.90);
         }
         else
         {
-            printf("%d", 5 * pezzi);
+            printf("%d\n", 5 * pezzi);
         }
 }
 }

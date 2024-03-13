@@ -11,15 +11,15 @@ while(pezzi > 0)
     {
         if(pezzi > 50)
         {
-            printf("%f\n", (float)pezzi * 5 * 0.85);
+            printf("il prezzo é %f\n", (float)pezzi * 5 * 0.85);
         }
         else if(pezzi > 30)
         {
-            printf("%f\n", (float)pezzi * 5 * 0.90);
+            printf("il prezzo é %f\n", (float)pezzi * 5 * 0.90);
         }
         else
         {
-            printf("%d\n", 5 * pezzi);
+            printf("il prezzo é %d\n", 5 * pezzi);
         }
 }
 }
